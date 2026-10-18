@@ -113,16 +113,16 @@
       "sha256": "d24694bb6245c89b9dceeab9d93b20434829ba2e12d47a66ffa61fda21eeb07c"
     },
     "app.js": {
-      "bytes": 16484,
-      "sha256": "fcf8337386ad2f045b8053302b0a85650d3b55af61465c3003975b137f6cfc8a"
+      "bytes": 17171,
+      "sha256": "5f65c9b541c373427797b13c83197a6a33d7b8e5174bba90139882f2a75163eb"
     },
     "axiom-compiler.zip": {
       "bytes": 28599,
       "sha256": "abd6d1a35979e7f3901d5dd2a25c4988540b0e055d4db9e4d7310a296efb1ffe"
     },
     "index.html": {
-      "bytes": 9062,
-      "sha256": "5f31774d5281f5fec3852a06c27a35b9586ce379bb8ba4dcadb8800bd0d65734"
+      "bytes": 8197,
+      "sha256": "6f8c0e4808b4ae9c95a7155d0b720d9e9e98d969acc342ca07336983fa6fa006"
     },
     "runtime-config.json": {
       "bytes": 54,
@@ -157,8 +157,8 @@
       "sha256": "16611534726e5d8ac2bd8f926410b2dcb8d6f49aa24913463533b457a2115c16"
     },
     "style.css": {
-      "bytes": 17358,
-      "sha256": "af8329ebc631476071ab2761427a9f97d753e23ce96881c45aa8adf03ca37572"
+      "bytes": 13787,
+      "sha256": "e27a0dd257620d2b38bfec9ee88fef811ae407aa827fe89acd622f263eee9013"
     },
     "transport.js": {
       "bytes": 3355,
