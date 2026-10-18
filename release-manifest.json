@@ -113,16 +113,16 @@
       "sha256": "d24694bb6245c89b9dceeab9d93b20434829ba2e12d47a66ffa61fda21eeb07c"
     },
     "app.js": {
-      "bytes": 17160,
-      "sha256": "59da7f265b883d707f5f19fd66f385e4a9962c9c4efa44e673c814d59c06c04e"
+      "bytes": 17544,
+      "sha256": "b56318bd246d7307aa85ea1f2756700321daa638811b86a5dc527704e99e286a"
     },
     "beryl-compiler.zip": {
       "bytes": 28595,
-      "sha256": "d9b4e3cd86e12fc83b81c482ee3e441ebacf2afd48efc6cb74236ebcc83b6112"
+      "sha256": "22295febd4973096664da15c5a902cf12a3a5363645f3dee60aebc80abd8338e"
     },
     "index.html": {
-      "bytes": 7972,
-      "sha256": "00a1b005f869f4798fd76c075b342b703192b7981114b75303f281604aaf5642"
+      "bytes": 8061,
+      "sha256": "97709a251f15bf62d243f2f792d3f6ec7d6c58bc61efb3457c4350cccf5458b8"
     },
     "runtime-config.json": {
       "bytes": 54,
@@ -157,12 +157,12 @@
       "sha256": "16611534726e5d8ac2bd8f926410b2dcb8d6f49aa24913463533b457a2115c16"
     },
     "style.css": {
-      "bytes": 13937,
-      "sha256": "36a8e44860a1a8447b55820ba300536a3ec351ac02b24f6bbd072f0beb325db7"
+      "bytes": 14017,
+      "sha256": "635087c6aed0059f747e443de2ef04723431d9b64f1e444ada73ba95755c4728"
     },
     "transport.js": {
-      "bytes": 3355,
-      "sha256": "12c9ff21ac41766ccec06c41dc196bc99055ccd9be4575646b9afae101ae8e4b"
+      "bytes": 5743,
+      "sha256": "fc157670c4fc12985386bb97940b152d7123ffede74b8788b43c3c10185ae549"
     },
     "worker.js": {
       "bytes": 2663,
