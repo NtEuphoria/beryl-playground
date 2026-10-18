@@ -22,7 +22,7 @@ same-host native measurements; C and Rust programs are compiled before timing.
 ## License and source
 
 The demo is released under the MIT License in LICENSE, copyright 2026 NtEuphoria.
-This grant covers the thirteen compiler/runtime Python modules named in
+This grant covers the 23 compiler/runtime Python modules named in
 release-manifest.json, the five UI/transport assets (index.html, app.js,
 style.css, transport.js, worker.js), and their accompanying demo documentation.
 The Python sources are included in beryl-compiler.zip, including the Wasm backend
@@ -61,7 +61,7 @@ For CDN mode also allow https://cdn.jsdelivr.net in script-src and connect-src.
 Do not add unsafe-eval, broad wildcard origins, or disable TLS to fix startup.
 
 release-manifest.json lists every release file's size and SHA-256, excluding
-itself to avoid a recursive hash. Its compiler_modules field lists the thirteen
+itself to avoid a recursive hash. Its compiler_modules field lists the 23
 Python sources; compiler_archive_members additionally records the LICENSE
 carried inside beryl-compiler.zip for standalone downloads. Rebuilds are
 deterministic for identical inputs.

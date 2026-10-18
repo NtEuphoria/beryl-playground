@@ -8,13 +8,49 @@
       "bytes": 45,
       "sha256": "80410b7a5446c0ed8c415e6830042150084c99c67c9be92f96f89425fc19909c"
     },
+    "beryl/bounded_loop_c.py": {
+      "bytes": 5221,
+      "sha256": "1f88f5aa48c2b2f4562d5863fde3a66f76c172607d6d7e9553100af5e1c05d3d"
+    },
+    "beryl/bounded_loop_codec.py": {
+      "bytes": 8638,
+      "sha256": "fc8b76ddbcda4941713c5d332f55a873a66f1d0adbbcd7bf68945a9715119518"
+    },
+    "beryl/bounded_loop_correspondence.py": {
+      "bytes": 9495,
+      "sha256": "3050924ca2d3195dfac2f1f8d72c929a887efa0cac566133140d029b86ed76b6"
+    },
+    "beryl/bounded_loop_model.py": {
+      "bytes": 2231,
+      "sha256": "a9e10e64f3f8aaf4f3a763e77d535f0465ac2b8be4cd7c8073a629095cde3c84"
+    },
+    "beryl/bounded_loop_planner.py": {
+      "bytes": 3322,
+      "sha256": "1058e4c1a64fe901e1228298f877c64c46672d821efc1b9d9efb0b933cbf6f9f"
+    },
+    "beryl/bounded_loop_wasm.py": {
+      "bytes": 5736,
+      "sha256": "7f5ed23a1a8159f34b2b446c6d1d3c1ca9b55fc4b839094f87a73c81deb41d84"
+    },
     "beryl/checker.py": {
-      "bytes": 16725,
-      "sha256": "d3f9c1dada4a25e3584fcae951552a6d7ca62d7e9aee27569f211b2d12d2ce0d"
+      "bytes": 20390,
+      "sha256": "c2a0cd51b5d5b9052df020ba85ce9dc4c343d2b23beb2278ed69b4f75869238e"
     },
     "beryl/codec.py": {
-      "bytes": 16887,
-      "sha256": "43be833627c261c4f88ef59692f3fb8a1cef6a741f38e1895b418de48372f03b"
+      "bytes": 18704,
+      "sha256": "c5d6fd6cad0798ca13ac3d451e564b07c78b38ffab2fd865e0a89f1567035399"
+    },
+    "beryl/compilation.py": {
+      "bytes": 7661,
+      "sha256": "62a60f6184114c54038d13bb8f978b4f6933a9319d0febd6ccc6dad69a704901"
+    },
+    "beryl/compilation_selection.py": {
+      "bytes": 12929,
+      "sha256": "949ef7244635f864edfc7d55f2a2a4ee24f5d9470c69ba60df0c470e059cb91d"
+    },
+    "beryl/compilation_trace.py": {
+      "bytes": 1959,
+      "sha256": "d6b06a05ebb0bd8e94c16f89ff5eeecaef883758cab8035748eec7b0cc10bfaf"
     },
     "beryl/frontend.py": {
       "bytes": 20903,
@@ -25,8 +61,8 @@
       "sha256": "2c33b27d08cf3d79195007e430c6da1bc652637d612429626079c37ddab61b70"
     },
     "beryl/native_codegen.py": {
-      "bytes": 6611,
-      "sha256": "f38474b2b7dda78cffe12a42d27a58c4e5140fe16fbc8a1f05b6451cb2be1679"
+      "bytes": 8730,
+      "sha256": "3d1eb90fe3fe45502819249a4776030243d9a99ae5c92ae16f84b66ed4655764"
     },
     "beryl/plan_format.py": {
       "bytes": 603,
@@ -37,24 +73,28 @@
       "sha256": "06ae71ea42e30d706acf3d756c74abf620b1c9e8a9763d330e7cecc76d3df752"
     },
     "beryl/playground_service.py": {
-      "bytes": 13973,
-      "sha256": "f0013de9ad2baff1e4147e4f8f35db8c81d21e0e4d1f678e8be85b43e86a42fb"
+      "bytes": 15448,
+      "sha256": "61792c9480082b17fc966b3739c984949c8177688a86832ec39a100e7982bf9b"
     },
     "beryl/reference.py": {
       "bytes": 5903,
       "sha256": "01857a9ddc24f905721cfaf3959a2f2acb8a2388c63fe8d5260389853f341f3d"
     },
     "beryl/runtime.py": {
-      "bytes": 5331,
-      "sha256": "7ebf5ea60c5c67cb12ddff29096c36a87b4decb4fbd9352e2faed7b743b8bfaa"
+      "bytes": 5651,
+      "sha256": "a4e44c879da9d5ed6067323e547b3ce16ae5e780f7e1a46be5787d1b226866b9"
     },
     "beryl/selection.py": {
-      "bytes": 9808,
-      "sha256": "799b46d47ce54cc6b78ff692045de09d74b5fb47a68465f241ad79b9cf50f975"
+      "bytes": 10618,
+      "sha256": "7a1086c3a282ed3f79fdc9ead76949ab45f53daba821a82a8eed9925ebb24854"
+    },
+    "beryl/source_compilation.py": {
+      "bytes": 2666,
+      "sha256": "d256ec0545f27b80c97bb390a2c59548f7a7d68b0ca6ba18b2c065523d0be9b8"
     },
     "beryl/wasm.py": {
-      "bytes": 5968,
-      "sha256": "6b333fce1a4218edb9fa06b62e274a5b6f49c41dec14f814f78ab7841af8108e"
+      "bytes": 6927,
+      "sha256": "a13f6d4b45e776d90592191999dc25b7921f4d65eeefdb7462dfef332cf5bd68"
     }
   },
   "compiler_modules": {
@@ -62,13 +102,49 @@
       "bytes": 45,
       "sha256": "80410b7a5446c0ed8c415e6830042150084c99c67c9be92f96f89425fc19909c"
     },
+    "beryl/bounded_loop_c.py": {
+      "bytes": 5221,
+      "sha256": "1f88f5aa48c2b2f4562d5863fde3a66f76c172607d6d7e9553100af5e1c05d3d"
+    },
+    "beryl/bounded_loop_codec.py": {
+      "bytes": 8638,
+      "sha256": "fc8b76ddbcda4941713c5d332f55a873a66f1d0adbbcd7bf68945a9715119518"
+    },
+    "beryl/bounded_loop_correspondence.py": {
+      "bytes": 9495,
+      "sha256": "3050924ca2d3195dfac2f1f8d72c929a887efa0cac566133140d029b86ed76b6"
+    },
+    "beryl/bounded_loop_model.py": {
+      "bytes": 2231,
+      "sha256": "a9e10e64f3f8aaf4f3a763e77d535f0465ac2b8be4cd7c8073a629095cde3c84"
+    },
+    "beryl/bounded_loop_planner.py": {
+      "bytes": 3322,
+      "sha256": "1058e4c1a64fe901e1228298f877c64c46672d821efc1b9d9efb0b933cbf6f9f"
+    },
+    "beryl/bounded_loop_wasm.py": {
+      "bytes": 5736,
+      "sha256": "7f5ed23a1a8159f34b2b446c6d1d3c1ca9b55fc4b839094f87a73c81deb41d84"
+    },
     "beryl/checker.py": {
-      "bytes": 16725,
-      "sha256": "d3f9c1dada4a25e3584fcae951552a6d7ca62d7e9aee27569f211b2d12d2ce0d"
+      "bytes": 20390,
+      "sha256": "c2a0cd51b5d5b9052df020ba85ce9dc4c343d2b23beb2278ed69b4f75869238e"
     },
     "beryl/codec.py": {
-      "bytes": 16887,
-      "sha256": "43be833627c261c4f88ef59692f3fb8a1cef6a741f38e1895b418de48372f03b"
+      "bytes": 18704,
+      "sha256": "c5d6fd6cad0798ca13ac3d451e564b07c78b38ffab2fd865e0a89f1567035399"
+    },
+    "beryl/compilation.py": {
+      "bytes": 7661,
+      "sha256": "62a60f6184114c54038d13bb8f978b4f6933a9319d0febd6ccc6dad69a704901"
+    },
+    "beryl/compilation_selection.py": {
+      "bytes": 12929,
+      "sha256": "949ef7244635f864edfc7d55f2a2a4ee24f5d9470c69ba60df0c470e059cb91d"
+    },
+    "beryl/compilation_trace.py": {
+      "bytes": 1959,
+      "sha256": "d6b06a05ebb0bd8e94c16f89ff5eeecaef883758cab8035748eec7b0cc10bfaf"
     },
     "beryl/frontend.py": {
       "bytes": 20903,
@@ -79,8 +155,8 @@
       "sha256": "2c33b27d08cf3d79195007e430c6da1bc652637d612429626079c37ddab61b70"
     },
     "beryl/native_codegen.py": {
-      "bytes": 6611,
-      "sha256": "f38474b2b7dda78cffe12a42d27a58c4e5140fe16fbc8a1f05b6451cb2be1679"
+      "bytes": 8730,
+      "sha256": "3d1eb90fe3fe45502819249a4776030243d9a99ae5c92ae16f84b66ed4655764"
     },
     "beryl/plan_format.py": {
       "bytes": 603,
@@ -91,24 +167,28 @@
       "sha256": "06ae71ea42e30d706acf3d756c74abf620b1c9e8a9763d330e7cecc76d3df752"
     },
     "beryl/playground_service.py": {
-      "bytes": 13973,
-      "sha256": "f0013de9ad2baff1e4147e4f8f35db8c81d21e0e4d1f678e8be85b43e86a42fb"
+      "bytes": 15448,
+      "sha256": "61792c9480082b17fc966b3739c984949c8177688a86832ec39a100e7982bf9b"
     },
     "beryl/reference.py": {
       "bytes": 5903,
       "sha256": "01857a9ddc24f905721cfaf3959a2f2acb8a2388c63fe8d5260389853f341f3d"
     },
     "beryl/runtime.py": {
-      "bytes": 5331,
-      "sha256": "7ebf5ea60c5c67cb12ddff29096c36a87b4decb4fbd9352e2faed7b743b8bfaa"
+      "bytes": 5651,
+      "sha256": "a4e44c879da9d5ed6067323e547b3ce16ae5e780f7e1a46be5787d1b226866b9"
     },
     "beryl/selection.py": {
-      "bytes": 9808,
-      "sha256": "799b46d47ce54cc6b78ff692045de09d74b5fb47a68465f241ad79b9cf50f975"
+      "bytes": 10618,
+      "sha256": "7a1086c3a282ed3f79fdc9ead76949ab45f53daba821a82a8eed9925ebb24854"
+    },
+    "beryl/source_compilation.py": {
+      "bytes": 2666,
+      "sha256": "d256ec0545f27b80c97bb390a2c59548f7a7d68b0ca6ba18b2c065523d0be9b8"
     },
     "beryl/wasm.py": {
-      "bytes": 5968,
-      "sha256": "6b333fce1a4218edb9fa06b62e274a5b6f49c41dec14f814f78ab7841af8108e"
+      "bytes": 6927,
+      "sha256": "a13f6d4b45e776d90592191999dc25b7921f4d65eeefdb7462dfef332cf5bd68"
     }
   },
   "files": {
@@ -121,20 +201,20 @@
       "sha256": "673f0bfcb392c499679e681044b81018222fdcfe14ad3adffc8d4735f89e62aa"
     },
     "README.md": {
-      "bytes": 3692,
-      "sha256": "8fb55fdf7fafbe5097fbf3fd823f5700a8ccadce837bffb1e2063a30e55fe0e6"
+      "bytes": 3680,
+      "sha256": "b97fbd987c73f79abf30ddf1980cb04eb2f78e86a3b4f5b5d934ef1048f8112a"
     },
     "_headers": {
       "bytes": 398,
       "sha256": "d24694bb6245c89b9dceeab9d93b20434829ba2e12d47a66ffa61fda21eeb07c"
     },
     "app.js": {
-      "bytes": 17970,
-      "sha256": "ccdeb4374c25aa8c5f8aa0c71b5e01dbb765fc681ed842952a347483c4e370b1"
+      "bytes": 18771,
+      "sha256": "caf56c6a0dc07600044e77b20ebac0f1162d275937fc9f48ace2a01fda6272da"
     },
     "benchmark-results.json": {
-      "bytes": 439274,
-      "sha256": "531c2f9da8a446f63293140537238ea9a11ae7bbbbc465f387fd643c16c15dc0"
+      "bytes": 103181,
+      "sha256": "e233af0bd575b1f26e680829a664bfb36e214627e08c18f14e7ba55163fcea19"
     },
     "benchmark.c": {
       "bytes": 610,
@@ -149,12 +229,12 @@
       "sha256": "3ddc3806b440d96f1f13d91bd2923a1aadb3b4f39f0f3d6755252c7b0849c6b9"
     },
     "benchmarks.js": {
-      "bytes": 5250,
-      "sha256": "4e207cd175c0b095e624567498fa02415b5109869eaf19e4379a44ec39bc3ada"
+      "bytes": 5281,
+      "sha256": "aac3de7696943b2a33693d30607650156ce02a6b575973d4d63fb767e49a1dc3"
     },
     "beryl-compiler.zip": {
-      "bytes": 35300,
-      "sha256": "cb7304afabbfee94c4184f1c34574732f0f241c2a674222d6c3a8ee014bb6634"
+      "bytes": 58254,
+      "sha256": "bdea7e03ec93d3df176ba39a9670ffc6f45f754df7f83dcb68ba2ef788b243c6"
     },
     "index.html": {
       "bytes": 8116,
@@ -201,8 +281,8 @@
       "sha256": "81c6596dc319585bda116564df21039d2e2a76a21588b6566f08af333aa95d24"
     },
     "worker.js": {
-      "bytes": 6916,
-      "sha256": "c19d2c9141adaf481fa318b79959c232f0c082273bb926cb6f239dec820f9476"
+      "bytes": 6992,
+      "sha256": "bf65c15fc22a36ed522ae2edf46847600fd7bfd26e186f1976a2724e7ab5c122"
     }
   },
   "runtime": {
