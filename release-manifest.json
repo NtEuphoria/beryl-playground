@@ -116,13 +116,33 @@
       "bytes": 17544,
       "sha256": "b56318bd246d7307aa85ea1f2756700321daa638811b86a5dc527704e99e286a"
     },
+    "benchmark-results.json": {
+      "bytes": 6995,
+      "sha256": "47007a5036515c46d28df8a380b3f5eeabaa30db49b1b52461ca61452b185860"
+    },
+    "benchmark.c": {
+      "bytes": 610,
+      "sha256": "6293028824e240ce4151ade5589ec909be3fdb2571057d690a9be230f7c1d621"
+    },
+    "benchmark.rs": {
+      "bytes": 832,
+      "sha256": "35fc4ec82e2e6eaae1f04118ea572380aea3ae3a1090a1175af142a3f7a6f435"
+    },
+    "benchmarks.html": {
+      "bytes": 4061,
+      "sha256": "792679eb18af9ce5caaf19dc000132e12abc10faa21ae8b1239152a1f667aacd"
+    },
+    "benchmarks.js": {
+      "bytes": 3831,
+      "sha256": "3e4c53f2df93d0a1d90bf81a76180d94623d8bd7194d3609b9a8f4f115cc1f75"
+    },
     "beryl-compiler.zip": {
       "bytes": 28595,
       "sha256": "22295febd4973096664da15c5a902cf12a3a5363645f3dee60aebc80abd8338e"
     },
     "index.html": {
-      "bytes": 8061,
-      "sha256": "97709a251f15bf62d243f2f792d3f6ec7d6c58bc61efb3457c4350cccf5458b8"
+      "bytes": 8108,
+      "sha256": "63e27ba080dbd3353bf4b51ae3e8604961e999b303fa18b3249f02c9a935f8b3"
     },
     "runtime-config.json": {
       "bytes": 54,
