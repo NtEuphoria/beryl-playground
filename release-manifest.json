@@ -4,93 +4,93 @@
       "bytes": 1067,
       "sha256": "673f0bfcb392c499679e681044b81018222fdcfe14ad3adffc8d4735f89e62aa"
     },
-    "axiom/__init__.py": {
+    "beryl/__init__.py": {
       "bytes": 45,
-      "sha256": "344313165d8438d321221596d363facccbec497b7459ae380143c16fef6d69e9"
+      "sha256": "80410b7a5446c0ed8c415e6830042150084c99c67c9be92f96f89425fc19909c"
     },
-    "axiom/checker.py": {
+    "beryl/checker.py": {
       "bytes": 16620,
-      "sha256": "75af14e064d91694126095af12a60898544a73bec562dc2568706fc266393ac5"
+      "sha256": "b454d74dde75efde8716b4e39064d69974900b337b748df7bf6d63bb47d3d24e"
     },
-    "axiom/codec.py": {
+    "beryl/codec.py": {
       "bytes": 15793,
       "sha256": "f2d7aae98e4e0140874a92f52ff166b5e1a74ca046ad5f8c2810901ca0e724e3"
     },
-    "axiom/frontend.py": {
-      "bytes": 20900,
-      "sha256": "2b6f291ce350fa32c1a09e64a0de425a3d02e9633535b13949fac1a8063afa71"
+    "beryl/frontend.py": {
+      "bytes": 20903,
+      "sha256": "a50596f38480f1a8759e38749f531d48f63fc48810cbbe95d753671fa91affc5"
     },
-    "axiom/model.py": {
+    "beryl/model.py": {
       "bytes": 3878,
-      "sha256": "dd45837debec9302a19d194d1fe8805176c902164f4432fc5391bcc274b96408"
+      "sha256": "2c33b27d08cf3d79195007e430c6da1bc652637d612429626079c37ddab61b70"
     },
-    "axiom/plan_format.py": {
+    "beryl/plan_format.py": {
       "bytes": 603,
       "sha256": "13cff8c9f80863d6629b81d8ad82e6ad54b7c2be63d8da6623f4a73286b9a829"
     },
-    "axiom/planner.py": {
+    "beryl/planner.py": {
       "bytes": 3734,
       "sha256": "06ae71ea42e30d706acf3d756c74abf620b1c9e8a9763d330e7cecc76d3df752"
     },
-    "axiom/playground_service.py": {
-      "bytes": 7701,
-      "sha256": "562dc076bd787641804af4cab8a7b8b691bb7f51d5fbed2d33751118d654eb23"
+    "beryl/playground_service.py": {
+      "bytes": 7686,
+      "sha256": "9648e57126fd40a1f3663863332ce36808422ab9197ab324d2b6ba36d6d1ec7a"
     },
-    "axiom/reference.py": {
+    "beryl/reference.py": {
       "bytes": 5903,
       "sha256": "01857a9ddc24f905721cfaf3959a2f2acb8a2388c63fe8d5260389853f341f3d"
     },
-    "axiom/runtime.py": {
+    "beryl/runtime.py": {
       "bytes": 5035,
-      "sha256": "54d35cd52e4ad19944ea4f0807ccadac7ef999a0c635e4776cd2ea111308b71b"
+      "sha256": "d6df637702103cf454cafd40cb99d7167185ec59b9ea1a4a0f0878a863530567"
     },
-    "axiom/selection.py": {
+    "beryl/selection.py": {
       "bytes": 9808,
       "sha256": "799b46d47ce54cc6b78ff692045de09d74b5fb47a68465f241ad79b9cf50f975"
     }
   },
   "compiler_modules": {
-    "axiom/__init__.py": {
+    "beryl/__init__.py": {
       "bytes": 45,
-      "sha256": "344313165d8438d321221596d363facccbec497b7459ae380143c16fef6d69e9"
+      "sha256": "80410b7a5446c0ed8c415e6830042150084c99c67c9be92f96f89425fc19909c"
     },
-    "axiom/checker.py": {
+    "beryl/checker.py": {
       "bytes": 16620,
-      "sha256": "75af14e064d91694126095af12a60898544a73bec562dc2568706fc266393ac5"
+      "sha256": "b454d74dde75efde8716b4e39064d69974900b337b748df7bf6d63bb47d3d24e"
     },
-    "axiom/codec.py": {
+    "beryl/codec.py": {
       "bytes": 15793,
       "sha256": "f2d7aae98e4e0140874a92f52ff166b5e1a74ca046ad5f8c2810901ca0e724e3"
     },
-    "axiom/frontend.py": {
-      "bytes": 20900,
-      "sha256": "2b6f291ce350fa32c1a09e64a0de425a3d02e9633535b13949fac1a8063afa71"
+    "beryl/frontend.py": {
+      "bytes": 20903,
+      "sha256": "a50596f38480f1a8759e38749f531d48f63fc48810cbbe95d753671fa91affc5"
     },
-    "axiom/model.py": {
+    "beryl/model.py": {
       "bytes": 3878,
-      "sha256": "dd45837debec9302a19d194d1fe8805176c902164f4432fc5391bcc274b96408"
+      "sha256": "2c33b27d08cf3d79195007e430c6da1bc652637d612429626079c37ddab61b70"
     },
-    "axiom/plan_format.py": {
+    "beryl/plan_format.py": {
       "bytes": 603,
       "sha256": "13cff8c9f80863d6629b81d8ad82e6ad54b7c2be63d8da6623f4a73286b9a829"
     },
-    "axiom/planner.py": {
+    "beryl/planner.py": {
       "bytes": 3734,
       "sha256": "06ae71ea42e30d706acf3d756c74abf620b1c9e8a9763d330e7cecc76d3df752"
     },
-    "axiom/playground_service.py": {
-      "bytes": 7701,
-      "sha256": "562dc076bd787641804af4cab8a7b8b691bb7f51d5fbed2d33751118d654eb23"
+    "beryl/playground_service.py": {
+      "bytes": 7686,
+      "sha256": "9648e57126fd40a1f3663863332ce36808422ab9197ab324d2b6ba36d6d1ec7a"
     },
-    "axiom/reference.py": {
+    "beryl/reference.py": {
       "bytes": 5903,
       "sha256": "01857a9ddc24f905721cfaf3959a2f2acb8a2388c63fe8d5260389853f341f3d"
     },
-    "axiom/runtime.py": {
+    "beryl/runtime.py": {
       "bytes": 5035,
-      "sha256": "54d35cd52e4ad19944ea4f0807ccadac7ef999a0c635e4776cd2ea111308b71b"
+      "sha256": "d6df637702103cf454cafd40cb99d7167185ec59b9ea1a4a0f0878a863530567"
     },
-    "axiom/selection.py": {
+    "beryl/selection.py": {
       "bytes": 9808,
       "sha256": "799b46d47ce54cc6b78ff692045de09d74b5fb47a68465f241ad79b9cf50f975"
     }
@@ -105,24 +105,24 @@
       "sha256": "673f0bfcb392c499679e681044b81018222fdcfe14ad3adffc8d4735f89e62aa"
     },
     "README.md": {
-      "bytes": 3649,
-      "sha256": "8035f0db19dd9b32ad9753757d32ae92c03a856f157f3a5903abe44f391016e1"
+      "bytes": 3294,
+      "sha256": "d179f6ce5f89c0a2df8f8bcd56d444f329bc23f937a6952668f69a2b157f2e3f"
     },
     "_headers": {
       "bytes": 398,
       "sha256": "d24694bb6245c89b9dceeab9d93b20434829ba2e12d47a66ffa61fda21eeb07c"
     },
     "app.js": {
-      "bytes": 17171,
-      "sha256": "5f65c9b541c373427797b13c83197a6a33d7b8e5174bba90139882f2a75163eb"
+      "bytes": 17160,
+      "sha256": "59da7f265b883d707f5f19fd66f385e4a9962c9c4efa44e673c814d59c06c04e"
     },
-    "axiom-compiler.zip": {
-      "bytes": 28599,
-      "sha256": "abd6d1a35979e7f3901d5dd2a25c4988540b0e055d4db9e4d7310a296efb1ffe"
+    "beryl-compiler.zip": {
+      "bytes": 28595,
+      "sha256": "d9b4e3cd86e12fc83b81c482ee3e441ebacf2afd48efc6cb74236ebcc83b6112"
     },
     "index.html": {
-      "bytes": 8197,
-      "sha256": "6f8c0e4808b4ae9c95a7155d0b720d9e9e98d969acc342ca07336983fa6fa006"
+      "bytes": 7972,
+      "sha256": "00a1b005f869f4798fd76c075b342b703192b7981114b75303f281604aaf5642"
     },
     "runtime-config.json": {
       "bytes": 54,
@@ -166,7 +166,7 @@
     },
     "worker.js": {
       "bytes": 2663,
-      "sha256": "f01138516637a4ee1d9f5ad3b98b1e536b4d02a4c1420097cd11fabe3cba2211"
+      "sha256": "930adb0fd315fcee8c1ece31a6822273b2f6625076608f253b96aacda3c05176"
     }
   },
   "runtime": {

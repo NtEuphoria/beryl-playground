@@ -1,31 +1,31 @@
-# Axiom browser playground release
+# beryl
 
-This folder is a runnable, static presentation of the experimental finite v1
-Axiom language. Serve it over HTTP/HTTPS; opening index.html as file:// does not
-support Workers. For a local preview: `python -m http.server 8765 --directory PATH`.
-The browser runs the real Python compiler, checked plan interpreter, and original
-source evaluator in a Web Worker. No compilation server or account is needed.
+An experimental playground for describing a calculation, setting its storage
+limit, and exploring the plan chosen to carry it out. The browser runs the Python
+compiler, checked plan interpreter, and independent source evaluator in a Web
+Worker. No compilation server or account is needed.
 
-## Scope and publication
+Serve this folder over HTTP/HTTPS; opening index.html as file:// does not support
+Workers. For a local preview: `python -m http.server 8765 --directory PATH`.
 
-Publishing this folder discloses the source of the eleven modules listed in
-release-manifest.json. The ZIP is source code, not a secrecy mechanism. This
-artifact excludes Core, scalable research, receipts, recovery material, session
-logs and Git history. Review these exact bytes before any public upload.
-The bounded demo is released under the MIT License in LICENSE, copyright 2026
-NtEuphoria. This grant covers the eleven compiler/runtime Python modules named
-in release-manifest.json, the five UI/transport assets (index.html, app.js,
+## Scope
+
+This early demo supports one exact i32 two-stage stencil, with
+(H+1)*(W+1) <= 256 and input values 0..1023. Each run compares the checked plan's
+output with an independent evaluation of the source. Reports describe these
+bounded interpreter runs; they do not measure native performance or certify
+larger computations. Browser code and downloaded reports can be modified, so
+reports are not authoritative attestations.
+
+## License and source
+
+The demo is released under the MIT License in LICENSE, copyright 2026 NtEuphoria.
+This grant covers the eleven compiler/runtime Python modules named in
+release-manifest.json, the five UI/transport assets (index.html, app.js,
 style.css, transport.js, worker.js), and their accompanying demo documentation.
-It does not grant a license to excluded Axiom research, recovery records, Core,
-or any other private repository material. Third-party runtime files retain their
-own licenses described below. The build command itself does not deploy, create
-a public repository, or register a Stardance submission.
-
-The supported profile is one exact i32 two-stage stencil, with
-(H+1)*(W+1) <= 256 and input values 0..1023. Reports are independently compared
-observations, not native performance measurements, scalable proof certificates,
-or O3 qualification receipts. The user can inspect and modify browser code;
-therefore a downloaded report is not an authoritative attestation.
+The Python sources are included in beryl-compiler.zip. The license covers this
+release only and does not grant rights to material outside it. Third-party
+runtime files retain their own licenses described below.
 
 ## Runtime and network
 
@@ -44,8 +44,8 @@ The vendor build includes their license texts under runtime/.
 
 ## Hosting
 
-Upload this folder as static files only after publication approval. Relative
-asset paths support a site root or a repository subpath. Serve .js as JavaScript,
+Serve this folder as static files. Relative asset paths support a site root or a
+repository subpath. Serve .js as JavaScript,
 .wasm as application/wasm, and .json as application/json. No SPA rewrite or
 backend function is needed. HTTPS is recommended for public hosting.
 
@@ -59,5 +59,5 @@ Do not add unsafe-eval, broad wildcard origins, or disable TLS to fix startup.
 release-manifest.json lists every release file's size and SHA-256, excluding
 itself to avoid a recursive hash. Its compiler_modules field lists the eleven
 Python sources; compiler_archive_members additionally records the LICENSE
-carried inside axiom-compiler.zip for standalone downloads. Rebuilds are
+carried inside beryl-compiler.zip for standalone downloads. Rebuilds are
 deterministic for identical inputs.
