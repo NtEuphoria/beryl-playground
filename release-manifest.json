@@ -9,12 +9,12 @@
       "sha256": "80410b7a5446c0ed8c415e6830042150084c99c67c9be92f96f89425fc19909c"
     },
     "beryl/checker.py": {
-      "bytes": 16620,
-      "sha256": "b454d74dde75efde8716b4e39064d69974900b337b748df7bf6d63bb47d3d24e"
+      "bytes": 16725,
+      "sha256": "d3f9c1dada4a25e3584fcae951552a6d7ca62d7e9aee27569f211b2d12d2ce0d"
     },
     "beryl/codec.py": {
-      "bytes": 15793,
-      "sha256": "f2d7aae98e4e0140874a92f52ff166b5e1a74ca046ad5f8c2810901ca0e724e3"
+      "bytes": 16887,
+      "sha256": "43be833627c261c4f88ef59692f3fb8a1cef6a741f38e1895b418de48372f03b"
     },
     "beryl/frontend.py": {
       "bytes": 20903,
@@ -55,12 +55,12 @@
       "sha256": "80410b7a5446c0ed8c415e6830042150084c99c67c9be92f96f89425fc19909c"
     },
     "beryl/checker.py": {
-      "bytes": 16620,
-      "sha256": "b454d74dde75efde8716b4e39064d69974900b337b748df7bf6d63bb47d3d24e"
+      "bytes": 16725,
+      "sha256": "d3f9c1dada4a25e3584fcae951552a6d7ca62d7e9aee27569f211b2d12d2ce0d"
     },
     "beryl/codec.py": {
-      "bytes": 15793,
-      "sha256": "f2d7aae98e4e0140874a92f52ff166b5e1a74ca046ad5f8c2810901ca0e724e3"
+      "bytes": 16887,
+      "sha256": "43be833627c261c4f88ef59692f3fb8a1cef6a741f38e1895b418de48372f03b"
     },
     "beryl/frontend.py": {
       "bytes": 20903,
@@ -129,16 +129,16 @@
       "sha256": "35fc4ec82e2e6eaae1f04118ea572380aea3ae3a1090a1175af142a3f7a6f435"
     },
     "benchmarks.html": {
-      "bytes": 4061,
-      "sha256": "792679eb18af9ce5caaf19dc000132e12abc10faa21ae8b1239152a1f667aacd"
+      "bytes": 4245,
+      "sha256": "cbb3864bc370512f4b3a3462fc501fb2180c9ff270da454189d781218de019e8"
     },
     "benchmarks.js": {
       "bytes": 3831,
       "sha256": "3e4c53f2df93d0a1d90bf81a76180d94623d8bd7194d3609b9a8f4f115cc1f75"
     },
     "beryl-compiler.zip": {
-      "bytes": 28595,
-      "sha256": "22295febd4973096664da15c5a902cf12a3a5363645f3dee60aebc80abd8338e"
+      "bytes": 29008,
+      "sha256": "fe23d074688d27848bd9aae335be420ccea95833b8b9cbca196bd9be781d38c9"
     },
     "index.html": {
       "bytes": 8108,
