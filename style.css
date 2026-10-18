@@ -141,7 +141,7 @@ select { width: 100%; min-height: 44px; margin-top: .5rem; border: 1px solid var
 .release-links a { display: inline-flex; align-items: center; min-height: 40px; text-underline-offset: 3px; }
 .noscript-message { padding: 1rem; border: 2px solid var(--error); background: var(--error-wash); }
 @media (forced-colors: active) {
-  .example-button[aria-pressed="true"] { outline: 2px solid Highlight; outline-offset: -4px; }
+  .example-button[aria-pressed="true"]:not(:focus-visible) { outline: 2px solid Highlight; outline-offset: -4px; }
 }
 @media (max-width: 1100px) {
   .site-header, main, .site-footer { padding-left: 1.5rem; padding-right: 1.5rem; }
